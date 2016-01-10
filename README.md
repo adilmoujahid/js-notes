@@ -22,6 +22,7 @@ code
 
 * [Derek Sivers: Learning JavaScript - my experience and advice](https://sivers.org/learn-js)
 * [Addy Osmani: Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
 ##Tutorials
 * [Beer Drinking Data Vizualization using dc.js, Crossfilter, and Leaflet](https://github.com/austinlyons/dcjs-leaflet-untappd)
 * [anapaulagomes/dashboard](https://github.com/anapaulagomes/dashboard)
