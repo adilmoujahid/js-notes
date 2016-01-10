@@ -13,7 +13,7 @@ code
 ```
 
 ```javascript
-/* * This is a multi-line * Comment */
+/* * This is a multi-line comment */
 ```
 
 ###Global vs Local Variables
