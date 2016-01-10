@@ -16,6 +16,17 @@ code
 /* * This is a multi-line comment */
 ```
 
+###Data Types
+
+Using the typeof operator on a value returns one of the following strings:
+* ```"undefined"``` if the value is undefined* ```"boolean"``` if the value is a Boolean* ```"string"``` if the value is a string* ```"number"``` if the value is a number* ```"object"``` if the value is an object (other than a function) or null* ```"function"``` if the value is a function
+
+```javascript
+var message = "some string";alert(typeof message);   //"string"
+alert(typeof(message));  //"string"
+alert(typeof 95);        //"number"
+```
+
 ###Global vs Local Variables
 
 Defining a variable inside of a function using var means that the variable is destroyed as soon as the function exits.
