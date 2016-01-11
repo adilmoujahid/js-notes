@@ -69,7 +69,7 @@ if (car != null){	//do something with car}
 Defining a variable inside of a function using var means that the variable is destroyed as soon as the function exits.
 
 ```javascript
-function test(){	var message = “hi”; //local variable}test();alert(message); //error!
+function test(){	var message = "hi"; //local variable}test();alert(message); //error!
 ```
 
 Removing the ```var``` operator from the makes the variable global. 
