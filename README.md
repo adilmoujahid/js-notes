@@ -4,10 +4,12 @@
 code
 ```
 
-##Intro
+## Intro
 
-##Language Basics
-###Comments
+## Language Basics
+
+### Comments
+
 ```javascript
 //single line comment
 ```
@@ -16,7 +18,7 @@ code
 /* * This is a multi-line comment */
 ```
 
-###Data Types
+### Data Types
 
 Using the typeof operator on a value returns one of the following strings:
 * ```"undefined"``` if the value is undefined* ```"boolean"``` if the value is a Boolean* ```"string"``` if the value is a string* ```"number"``` if the value is a number* ```"object"``` if the value is an object (other than a function) or null* ```"function"``` if the value is a function
@@ -27,11 +29,42 @@ alert(typeof(message));  //"string"
 alert(typeof 95);        //"number"
 ```
 
-###Undefined Type and Null Type
+### Undefined Type and Null Type
 
+When a variable is declared using var but not initialized, it is assigned the value of undefined as follows:
 
+```javascript
+var message;alert(message == undefined); //true
+```
 
-###Global vs Local Variables
+Note that a variable containing the value of undefined is different from a variable that hasn’t been defined at all. 
+
+```javascript
+var message; //this variable is declared but has a value of undefined
+//var age  //age isn’t declaredalert(message); //"undefined"
+alert(age); //causes an error
+```
+
+The ```typeof``` operator returns ```"undefined"``` when called on an uninitialized variable, but it also returns ```"undefined"``` when called on an undeclared variable.
+
+```javascript
+var message; //this variable is declared but has a value of undefined
+//var age //age isn’t declaredalert(typeof message);  //"undefined"alert(typeof age);      //"undefined"
+```
+
+The Null type is the second data type that has only one value: the special value ```null```. Logically, a ```null``` value is an empty object pointer, which is why ```typeof``` returns ```"object"``` when it’s passed a ```null``` value in the following example:
+
+```javascriptvar car = null;alert(typeof car); //"object"
+```
+
+When defining a variable that is meant to later hold an object, it is advisable to initialize the variable to ```null``` as opposed to anything else. That way, you can explicitly check for the value ```null``` to determine if the variable has been filled with an object reference at a later time, such as in this example:
+
+```javascript
+if (car != null){	//do something with car}
+```Using the equality operator ```(==)``` between ```null``` and ```undefined``` always returns ```true```, though this operator converts its operands for comparison purposes.
+Even though ```null``` and ```undefined``` are related, they have very different uses. Never explicitly set the value of a variable to ```undefined```, but the same does not hold true for ```null```. Any time an object is expected but is not available, ```null``` should be used in its place. 
+
+### Global vs Local Variables
 
 Defining a variable inside of a function using var means that the variable is destroyed as soon as the function exits.
 
@@ -45,17 +78,19 @@ Removing the ```var``` operator from the makes the variable global.
 function test(){	message = "hi"; //global variable}test();alert(message); //"hi"
 ```
 
-##Variables, Scope, and Memory
+## Variables, Scope, and Memory
 
-##Reference Types
+## Reference Types
 
-##Object-Oriented Programming
+## Object-Oriented Programming
 
-##Function Expressions
+## Function Expressions
 
 ## The Browser Object Model
 
-##References
+## JavaScript Design Patterns
+
+## References
 
 * [Derek Sivers: Learning JavaScript - my experience and advice](https://sivers.org/learn-js)
 * [Nicholas C. Zakas: Professional JavaScript for Web Developers, 3rd Edition](http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-3rd-Edition.productCd-1118026691.html)
@@ -65,8 +100,13 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 * [Udacity: Object-Oriented JavaScript	](https://www.udacity.com/course/object-oriented-javascript--ud015)
 
 
-##Tutorials
+## Tutorials
+
 * [Beer Drinking Data Vizualization using dc.js, Crossfilter, and Leaflet](https://github.com/austinlyons/dcjs-leaflet-untappd)
 * [MDN: 2D Breakout Game using Pure JavaScript](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
 * [Build A Real-Time Twitter Stream with Node and React.js](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
 * [anapaulagomes/dashboard](https://github.com/anapaulagomes/dashboard)
+
+## Tools
+
+* [Leaflet.FreeDraw](https://github.com/Wildhoney/Leaflet.FreeDraw)
