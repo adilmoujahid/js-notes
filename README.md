@@ -109,6 +109,7 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 
 ## Tools
 
+* [Leaflet.js](https://github.com/Leaflet/Leaflet)
 * [Leaflet.FreeDraw](https://github.com/Wildhoney/Leaflet.FreeDraw)
 * [dc.js](https://github.com/dc-js/dc.js)
 * [Keshif](https://github.com/adilyalcin/keshif)
