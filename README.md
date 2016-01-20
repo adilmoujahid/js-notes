@@ -98,6 +98,7 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [MDN: JavaScript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
 * [Udacity: Object-Oriented JavaScript	](https://www.udacity.com/course/object-oriented-javascript--ud015)
+* [Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9#.t7st9qu0h)
 
 
 ## Tutorials
