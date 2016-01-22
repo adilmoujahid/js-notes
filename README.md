@@ -117,3 +117,4 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 * [Keshif](https://github.com/adilyalcin/keshif)
 * [dc.graph.js](https://github.com/dc-js/dc.graph.js)
 * [d3js](http://d3js.org/)
+* [Plotly](https://plot.ly/)
