@@ -99,7 +99,7 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 * [MDN: JavaScript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
 * [Udacity: Object-Oriented JavaScript	](https://www.udacity.com/course/object-oriented-javascript--ud015)
 * [Master the JavaScript Interview: What’s the Difference Between Class & Prototypal Inheritance?](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9#.t7st9qu0h)
-
+* [Master the JavaScript Interview: What is a Closure?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36#.t571z3pw5)
 
 ## Tutorials
 
@@ -107,7 +107,6 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 * [MDN: 2D Breakout Game using Pure JavaScript](https://developer.mozilla.org/en-US/docs/Games/Workflows/2D_Breakout_game_pure_JavaScript)
 * [Build A Real-Time Twitter Stream with Node and React.js](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
 * [anapaulagomes/dashboard](https://github.com/anapaulagomes/dashboard)
-* [Master the JavaScript Interview: What is a Closure?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36#.t571z3pw5)
 
 ## Tools
 
