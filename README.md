@@ -117,3 +117,4 @@ function test(){	message = "hi"; //global variable}test();alert(message); //
 * [dc.graph.js](https://github.com/dc-js/dc.graph.js)
 * [d3js](http://d3js.org/)
 * [Plotly](https://plot.ly/)
+* [sigma.js: A JavaScript library dedicated to graph drawing](https://github.com/jacomyal/sigma.js)
